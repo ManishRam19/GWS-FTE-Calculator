@@ -88,10 +88,10 @@ df_activities.loc[len(df_activities.index)] = fa_values
 # display(df_activities)
 
 activities_subscribed = count_activities_subscribed(Activities)
-print("Activities Subscribed",activities_subscribed)
+print("Activities Subscribed:->",activities_subscribed)
 
 total_activity_hours = total_activity_hrs(Activities)
-print("Total Activity Hours",total_activity_hours)
+print("Total Activity Hours:->",total_activity_hours)
 
 # Contract variable Multiplier:
 contract_structure_mul = contract_varibale_mul("Contract Structure",contract_structure)
